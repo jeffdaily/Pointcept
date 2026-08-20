@@ -13,7 +13,7 @@ from collections import OrderedDict
 import torch
 import torch.nn as nn
 
-import spconv.pytorch as spconv
+from pointcept.models.utils.spconv import spconv
 from torch_geometric.utils import scatter
 
 from timm.layers import trunc_normal_

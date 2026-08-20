@@ -1,5 +1,5 @@
 import torch
-import spconv.pytorch as spconv
+from pointcept.models.utils.spconv import spconv
 
 try:
     import ocnn

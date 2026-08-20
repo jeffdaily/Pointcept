@@ -10,7 +10,7 @@ from addict import Dict
 import math
 import torch
 import torch.nn as nn
-import spconv.pytorch as spconv
+from pointcept.models.utils.spconv import spconv
 import torch_scatter
 from timm.layers import DropPath
 

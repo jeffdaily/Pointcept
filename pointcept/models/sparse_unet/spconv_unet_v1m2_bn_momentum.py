@@ -12,7 +12,7 @@ import torch
 import torch.nn as nn
 
 try:
-    import spconv.pytorch as spconv
+    from pointcept.models.utils.spconv import spconv
 except ImportError:
     import warnings
 

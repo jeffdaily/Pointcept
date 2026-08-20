@@ -9,7 +9,7 @@ from functools import partial
 from addict import Dict
 import torch
 import torch.nn as nn
-import spconv.pytorch as spconv
+from pointcept.models.utils.spconv import spconv
 import torch_scatter
 from timm.layers import DropPath
 
